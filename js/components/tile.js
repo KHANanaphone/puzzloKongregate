@@ -241,6 +241,9 @@ Tile.prototype.DrawContents = function() {
 
 Tile.prototype.FlashBackground = function(color) {
 
+    if(this.type == 'block' && this.value == 0)
+        return;
+    
     var $tile = this.$tile.find('.inner');
 
     TweenMax.fromTo($tile, Timer.interval / 400, {

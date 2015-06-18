@@ -186,6 +186,8 @@ MenuScene.CheckForUnlockableTiles = function() {
         MenuScene.allClear = true;
         $('#diamond-menu').addClass('all-clear');
         $('#bottom-section').text('All Clear!');
+        
+        SUBMITSTAT('all_clear', 1);
     }
 }
 

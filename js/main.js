@@ -1,19 +1,7 @@
 $(document).ready(function(){
     
-    adjustHeight();
-    
-	$(window).on('resize', function(){
-		adjustHeight();
-	});
-    
     PuzzleScene.Init();
     MenuScene.Init();
-    
-    function adjustHeight(){
-    	
-		$('#main').css('width', $(window).height()/1.75 + 2);
-    }
-
 });
 
 var DEBUG_CTRL = false;
@@ -27,3 +15,13 @@ $(document).keyup(function(event){
     if(event.which=="17")
         DEBUG_CTRL = false;
 });
+
+function SUBMITSTAT(str, val){
+    
+    if(typeof kongGetAPI === 'undefined')
+        return;
+    
+    if(kongGetAPI() != -1){
+        kongSubmitStat("AllClear", 1); 
+    }
+}

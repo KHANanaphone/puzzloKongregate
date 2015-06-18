@@ -47,11 +47,12 @@
 }
 
 #puzzle-name-section{
-    font-family: 'Building';
+    font-family: 'Chunk';
     text-transform: uppercase;
     font-size: 4vh;
-    padding-bottom: 2vh;
-    color: rgb(221, 189, 145);
+    padding-bottom: 14px;
+    color: rgb(125, 149, 184);
+    padding-top: 5px;
 }
 
 #text-area {
@@ -62,16 +63,16 @@
 
     padding: 1vh 1vh;
     
-    background-color: rgb(255, 246, 229);
+/*    background-color: rgb(255, 246, 229);*/
     line-height: 1.2em;
 }
 
 #text-area #puzzle-description{
     
     text-align: center;
-    font-family: 'Lin';
-    font-size: 2.2vh;
-    line-height: 1.5em;
+    font-family: 'Chunk';
+    font-size: 2.3vh;
+    line-height: 1em;
 }
 
 #tile-area {
@@ -143,7 +144,7 @@
     width: 100%;
     padding-left: 1%;
     vertical-align: top;    
-    background-color: rgb(255, 246, 229);
+/*    background-color: rgb(255, 246, 229);*/
 }
 
 #shots-left-area #shots-icons{
@@ -249,8 +250,6 @@
 #tiles {
 
     height: 100%;
-
-    width: 100%;
 
 }
 
