@@ -187,7 +187,7 @@ MenuScene.CheckForUnlockableTiles = function() {
         $('#diamond-menu').addClass('all-clear');
         $('#bottom-section').text('All Clear!');
         
-        SUBMITSTAT('all_clear', 1);
+        PuzzKong.SubmitStat('all_clear', 1);
     }
 }
 
