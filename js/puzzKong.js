@@ -6,7 +6,7 @@ PuzzKong.SubmitStat = function(str, val){
         return;
     
     if(kongGetAPI() != -1 && typeof kongSubmitStat !== 'undefined'){
-        kongSubmitStat("AllClear", 1); 
+        kongSubmitStat("all_clear", 1); 
     }
 }
 
