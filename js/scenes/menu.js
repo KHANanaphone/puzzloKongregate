@@ -2,7 +2,7 @@ var MenuScene = {
     solved: null
 };
 
-var SOLVED_NAME = 's7';
+var SOLVED_NAME = 's8';
 
 MenuScene.Init = function() {
 
