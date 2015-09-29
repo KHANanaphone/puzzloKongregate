@@ -13,7 +13,6 @@ LightningLogic.ShootLightning = function(lightning) {
 
     PuzzleScene.ReduceMovesLeft();
     Timer.Run();
-
 };
 
 LightningLogic.Step = function() {
