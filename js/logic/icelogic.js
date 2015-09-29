@@ -11,9 +11,8 @@ IceLogic.ShootIce = function(ice) {
         step: IceLogic.Step
     });
 
-    Timer.Run();
-
     PuzzleScene.ReduceMovesLeft();
+    Timer.Run();
 };
 
 IceLogic.Step = function() {
